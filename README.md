@@ -38,8 +38,19 @@ GitHub Actions (CI/CD): Automates testing and deployment pipelines for continuou
 - *Documentation:* OpenAPI Standard  
 
 ## 👥 Team Roles
-Backend Developer, Database Administrator, DevOps Engineer, and QA Engineer will collaborate to ensure the project’s reliability, scalability, and performance.
 
----
+The Airbnb Clone Project requires collaboration among different technical experts, each playing a unique and critical role in ensuring the project’s success.
 
-*Repository:* airbnb-clone-project
+Backend Developer:
+Responsible for developing the server-side logic, API endpoints, and integration between the database and frontend. They ensure the system performs efficiently, securely, and reliably.
+
+Database Administrator (DBA):
+Designs, manages, and optimizes the project’s database. Ensures data integrity, security, and efficient query performance through indexing, backups, and schema management.
+
+DevOps Engineer:
+Handles deployment, monitoring, and scaling of backend services. They set up CI/CD pipelines, manage cloud infrastructure, and ensure smooth updates and releases.
+
+QA Engineer (Quality Assurance):
+Tests the backend and frontend functionalities to detect and fix bugs before deployment. Ensures that every feature meets performance, security, and user-experience standards.
+
+
