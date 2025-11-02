@@ -10,7 +10,6 @@ The Airbnb Clone Project is a full-stack web application designed to replicate c
 - Optimize database performance for scalability.
 - Collaborate effectively using GitHub workflows.
 
-
 ## 🛠 Technology Stack
 The Airbnb Clone Project uses a modern and scalable technology stack to ensure performance, security, and flexibility.
 Django: A high-level Python web framework used for building the RESTful API and managing the backend logic.
@@ -38,7 +37,6 @@ GitHub Actions (CI/CD): Automates testing and deployment pipelines for continuou
 - *Documentation:* OpenAPI Standard  
 
 ## 👥 Team Roles
-
 The Airbnb Clone Project requires collaboration among different technical experts, each playing a unique and critical role in ensuring the project’s success.
 
 Backend Developer:
@@ -52,10 +50,6 @@ Handles deployment, monitoring, and scaling of backend services. They set up CI/
 
 QA Engineer (Quality Assurance):
 Tests the backend and frontend functionalities to detect and fix bugs before deployment. Ensures that every feature meets performance, security, and user-experience standards.
-
-## Perfect 👌 Here’s a **ready-made, clear, and professional “Database Design” section** you can copy into your `README.md` file for your **Airbnb Clone Project**:
-
----
 
 ## 🗃️ Database Design
 
@@ -79,8 +73,6 @@ The `Users` table stores information about individuals using the platform — bo
 * A user can **make multiple bookings**.
 * A user can **write multiple reviews**.
 
----
-
 #### 2. **Properties**
 
 The `Properties` table contains listings created by hosts.
@@ -98,8 +90,6 @@ The `Properties` table contains listings created by hosts.
 
 * A property **belongs to one user (host)**.
 * A property **can have multiple bookings and reviews**.
-
----
 
 #### 3. **Bookings**
 
@@ -119,8 +109,6 @@ The `Bookings` table tracks reservation details made by guests.
 * A booking **belongs to one user** (guest).
 * A booking **belongs to one property**.
 
----
-
 #### 4. **Reviews**
 
 The `Reviews` table stores feedback from guests after their stay.
@@ -137,8 +125,6 @@ The `Reviews` table stores feedback from guests after their stay.
 
 * A review **belongs to one user (guest)**.
 * A review **belongs to one property**.
-
----
 
 #### 5. **Payments**
 
@@ -157,8 +143,6 @@ The `Payments` table manages financial transactions for bookings.
 * A payment **belongs to one booking**.
 * A booking **has one payment**.
 
----
-
 ### **Entity Relationships Summary**
 
 * One **User** → Many **Properties**
@@ -167,9 +151,6 @@ The `Payments` table manages financial transactions for bookings.
 * One **Property** → Many **Reviews**
 * One **Booking** → One **Payment**
 
----
-
-Would you like me to give you a **visual Entity Relationship Diagram (ERD)** version (like a simple diagram) you can include in your README too? It’ll make it more professional.
 
 
 
