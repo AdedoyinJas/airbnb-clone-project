@@ -183,5 +183,47 @@ The search functionality allows guests to find properties based on criteria such
 An administrative interface to monitor user activity, manage listings, and handle reported issues. This helps maintain platform quality, security, and compliance.
 
 
+## 🔐 API Security
+
+Ensuring the security of the backend APIs is critical to protect user data, transactions, and platform integrity. The following key security measures will be implemented in the Airbnb Clone project:
+
+### **1. Authentication**
+
+Authentication ensures that only verified users can access the system. We will use secure authentication methods (such as JWT — JSON Web Tokens) to verify user identities during login.
+✅ *Importance:* Protects the platform from unauthorized access and keeps user accounts safe.
+
+### **2. Authorization**
+
+Authorization controls what actions authenticated users can perform based on their roles (e.g., host, guest, admin).
+✅ *Importance:* Prevents users from accessing or modifying resources they don’t own — for example, one host cannot edit another host’s property.
+
+### **3. Data Encryption**
+
+Sensitive data such as passwords and payment details will be encrypted both in transit (using HTTPS/TLS) and at rest (in the database).
+✅ *Importance:* Prevents data leaks and protects user information from interception or unauthorized disclosure.
+
+### **4. Rate Limiting**
+
+Rate limiting will be used to restrict the number of API requests a user can make in a specific period.
+✅ *Importance:* Prevents abuse, brute-force attacks, and denial-of-service (DoS) attacks on the system.
+
+### **5. Input Validation & Sanitization**
+
+All user input will be validated and sanitized before processing.
+✅ *Importance:* Prevents security vulnerabilities such as SQL Injection, Cross-Site Scripting (XSS), and data corruption.
+
+### **6. Secure Payment Handling**
+
+Payment APIs will be integrated using trusted third-party services (e.g., Stripe or PayPal), following PCI-DSS compliance standards.
+✅ *Importance:* Ensures all financial transactions are secure and users’ payment information remains confidential.
+
+### **7. Regular Security Updates & Monitoring**
+
+The system will include logging, monitoring, and regular dependency updates to detect and fix vulnerabilities early.
+✅ *Importance:* Maintains long-term system integrity and protects against emerging threats.
+
+
+
+
 
 
