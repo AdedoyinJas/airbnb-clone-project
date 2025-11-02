@@ -151,38 +151,6 @@ The `Payments` table manages financial transactions for bookings.
 * One **Property** → Many **Reviews**
 * One **Booking** → One **Payment**
 
-🧩 Feature Breakdown
-1. User Management
-
-This feature handles the registration, authentication, and profile management of both hosts and guests. Users can sign up, log in securely, and update their personal details, ensuring a personalized experience for every user.
-
-2. Property Management
-
-Hosts can list new properties, upload images, set prices, and manage property availability. This feature ensures that property owners have full control over their listings and can easily update information to attract more guests.
-
-3. Booking System
-
-Guests can search for available properties, select check-in and check-out dates, and make bookings seamlessly. The booking system ensures that properties cannot be double-booked and that all reservation details are accurately stored.
-
-4. Payment Integration
-
-This feature handles all financial transactions securely. It allows guests to make payments online for their bookings and provides receipts or confirmations, ensuring a smooth and trustworthy payment experience.
-
-5. Review and Rating System
-
-Guests can rate and review properties after their stay. This feature builds credibility within the platform and helps future guests make informed decisions based on previous user experiences.
-
-6. Search and Filter
-
-The search functionality allows guests to find properties based on criteria such as location, price range, and amenities. Filtering ensures users can quickly locate listings that match their preferences, improving overall usability.
-
-7. Admin Dashboard (Optional Advanced Feature)
-
-An administrative interface to monitor user activity, manage listings, and handle reported issues. This helps maintain platform quality, security, and compliance.
-
-Perfect 👍 Here’s a **well-written “Feature Breakdown” section** you can copy directly into your `README.md` for your **Airbnb Clone Project**:
-
----
 
 ## 🧩 Feature Breakdown
 
@@ -190,45 +158,30 @@ Perfect 👍 Here’s a **well-written “Feature Breakdown” section** you can
 
 This feature handles the registration, authentication, and profile management of both hosts and guests. Users can sign up, log in securely, and update their personal details, ensuring a personalized experience for every user.
 
----
-
 ### **2. Property Management**
 
 Hosts can list new properties, upload images, set prices, and manage property availability. This feature ensures that property owners have full control over their listings and can easily update information to attract more guests.
-
----
 
 ### **3. Booking System**
 
 Guests can search for available properties, select check-in and check-out dates, and make bookings seamlessly. The booking system ensures that properties cannot be double-booked and that all reservation details are accurately stored.
 
----
-
 ### **4. Payment Integration**
 
 This feature handles all financial transactions securely. It allows guests to make payments online for their bookings and provides receipts or confirmations, ensuring a smooth and trustworthy payment experience.
-
----
 
 ### **5. Review and Rating System**
 
 Guests can rate and review properties after their stay. This feature builds credibility within the platform and helps future guests make informed decisions based on previous user experiences.
 
----
-
 ### **6. Search and Filter**
 
 The search functionality allows guests to find properties based on criteria such as location, price range, and amenities. Filtering ensures users can quickly locate listings that match their preferences, improving overall usability.
-
----
 
 ### **7. Admin Dashboard (Optional Advanced Feature)**
 
 An administrative interface to monitor user activity, manage listings, and handle reported issues. This helps maintain platform quality, security, and compliance.
 
----
-
-Would you like me to also help you with the **next section (System Architecture Overview)** that usually comes after this in the project instructions? It’s often required right after Feature Breakdown.
 
 
 
