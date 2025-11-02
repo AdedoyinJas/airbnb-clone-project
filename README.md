@@ -223,6 +223,31 @@ The system will include logging, monitoring, and regular dependency updates to d
 ✅ *Importance:* Maintains long-term system integrity and protects against emerging threats.
 
 
+## ⚙️ CI/CD Pipeline
+
+The **CI/CD (Continuous Integration and Continuous Deployment)** pipeline automates the process of building, testing, and deploying the Airbnb Clone application. It ensures that new updates are seamlessly integrated into the main codebase without breaking existing functionality.
+
+### **Continuous Integration (CI)**
+
+CI automatically tests and integrates code changes whenever developers push updates to the repository. This helps detect bugs early and maintain a stable codebase.
+
+### **Continuous Deployment (CD)**
+
+CD automates the deployment of tested code to production environments, ensuring that new features, bug fixes, and improvements are delivered quickly and reliably to users.
+
+### **Importance of CI/CD**
+
+* Reduces manual errors during deployment.
+* Speeds up development and release cycles.
+* Ensures consistent code quality through automated testing.
+* Promotes team collaboration and faster feedback.
+
+### **Tools Used**
+
+* **GitHub Actions:** For automating testing, building, and deployment workflows directly from the repository.
+* **Docker:** For containerizing the application, ensuring consistency across different environments.
+* **AWS / Render / Heroku (Optional):** For hosting and deploying the application automatically.
+
 
 
 
